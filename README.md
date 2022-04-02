@@ -7,7 +7,7 @@ This work contributes a novel transformer-based 3D reconstruction model for mult
 We tested the codes with:
   1) PyTorch with and without GPU under Ubuntu 18.04 and Anaconda3 (Python 3.7)
   2) PyTorch with and without GPU under Windows 10 and Anaconda3 (Python 3.7 and 3.9)
-  3) 1) PyTorch with CPU under MacOS 12.0 (M1) and Anaconda3 (Python 3.7 and 3.9)
+  3) yTorch with CPU under MacOS 12.0 (M1) and Anaconda3 (Python 3.7 and 3.9)
 
 ### Requirements
   1) [Anaconda3](https://www.anaconda.com/distribution/#download-section)
