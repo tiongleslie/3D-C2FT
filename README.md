@@ -17,7 +17,7 @@ We tested the codes with:
   5) [PyMCubes](https://pypi.org/project/PyMCubes/)
 
 ### Sample code
-- Run the code `eval.py` in [Shaped descriptor](https://github.com/tiongleslie/)
+- Run the code `eval.py` with the given configuration
 ```shell
 $ python eval.py
 ```
