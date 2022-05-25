@@ -59,7 +59,7 @@ class Block(nn.Module):
         :param qkv_bias (bool): enable bias for qkv if True
         :param drop (float): dropout rate
         :param attn_drop (float): attention dropout rate
-        :param drop_path:
+        :param drop_path: stochastic depth rate
         :param act_layer (nn.Module): activation layer
         :param norm_layer (nn.Module): normalization layer
         """
@@ -212,7 +212,7 @@ class Decoder(torch.nn.Module):
     def __init__(self, cat_dim, patch_size=4, output_size=32, num_heads=8, dropout=0.):
         """
         Args:
-        :param cat_dim:
+        :param cat_dim (int): embedding dimension
         :param patch_size  (int): patch embedding size, default=4
         :param output_size (int): 3D voxelized output size, default = 32
         :param num_heads (int): number of heads, default = 8
@@ -282,7 +282,7 @@ class Refiner(torch.nn.Module):
         :param num_heads (int): number of heads, default=8
         :param refiner_layer_depth (int): the I-layer of 3D patch attention block
         :param dropout (float): refiner dropout rate
-        :param refiner_drop_path_rate (float):
+        :param refiner_drop_path_rate (float): stochastic depth rate
         """
         super().__init__()
         self.output_size = output_size
