@@ -438,30 +438,3 @@ class RandomBackground(object):
             processed_images = np.append(processed_images, [img], axis=0)
 
         return processed_images
-
-
-class RandomCutout(object):
-    def __init__(self, random_bg_color_range, cutout_size, cutout_ratio):
-        self.random_bg_color_range = random_bg_color_range
-        self.cutout_size = cutout_size
-        self.cutout_ratio = cutout_ratio
-
-    def __call__(self, rendering_images):
-        if len(rendering_images) == 0:
-            return rendering_images
-
-        img_height, img_width, img_channels = rendering_images[0].shape
-
-        # Generate random background
-        r, g, b = np.array([
-            np.random.randint(self.random_bg_color_range[i][0], self.random_bg_color_range[i][1] + 1) for i in range(3)
-        ]) / 255.
-
-        # Cutout
-        start_point = (int((img_width - self.cutout_size) / 2), int((img_height - self.cutout_size) / 2))
-        end_point = (int((img_width + self.cutout_size) / 2), int((img_height + self.cutout_size) / 2))
-        for img_idx, img in enumerate(rendering_images):
-            if self.cutout_ratio and img_idx % 2 == 0:
-                cv2.rectangle(img, start_point, end_point, (b, g, r), -1)
-
-        return rendering_images
