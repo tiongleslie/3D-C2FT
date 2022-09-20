@@ -2,6 +2,9 @@
 
 ### Introduction
 This work contributes a novel transformer-based 3D reconstruction model for multi-view 3D reconstruction task.
+<p align="center">
+  <img src="./info/model_architecture.pdf" width="70%" height="70%" />
+</p>
 
 ### Compatibility
 We tested the codes with:
