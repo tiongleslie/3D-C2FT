@@ -1,10 +1,17 @@
 # 3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction
 
 ### Introduction
-This work contributes a novel transformer-based 3D reconstruction model for multi-view 3D reconstruction task.
+This repository contains the source code for the paper [3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction](https://arxiv.org/abs/2205.14575), which is accepted by ACCV 2022.
 <p align="center">
   <img src="info/model.jpg" width="70%" height="70%" />
 </p>
+
+
+### Dataset
+We use the ShapeNet and Multi-view Real-life datasets, which are available as follows:
+- [ShapeNet](https://shapenet.org/)
+- [Multi-view Real-life](https://github.com/tiongleslie/3D-C2FT/tree/main/dataset)
+
 
 ### Compatibility
 We tested the codes with:
@@ -12,15 +19,21 @@ We tested the codes with:
   2) PyTorch with and without GPU under Windows 10 and Anaconda3 (Python 3.7 and 3.9)
   3) PyTorch with CPU under MacOS 12.0 (M1) and Anaconda3 (Python 3.7 and 3.9)
 
+
 ### Requirements
   1) [Anaconda3](https://www.anaconda.com/distribution/#download-section)
   2) [PyTorch](https://pytorch.org/get-started/locally/)
   3) [Matplotlib](https://anaconda.org/conda-forge/matplotlib)
   4) [Open3D](http://www.open3d.org/docs/release/getting_started.html)
   5) [PyMCubes](https://pypi.org/project/PyMCubes/)
+  
 
 ### Sample code
 - Run the code `eval.py` with the given configuration
 ```shell
 $ python eval.py --dataset_mode "Ours"
 ```
+
+
+### License
+This work is an open-source under MIT license.
