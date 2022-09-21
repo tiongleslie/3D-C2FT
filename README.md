@@ -22,5 +22,5 @@ We tested the codes with:
 ### Sample code
 - Run the code `eval.py` with the given configuration
 ```shell
-$ python eval.py --dataset_mode "ShapeNet"
+$ python eval.py --dataset_mode "Ours"
 ```
