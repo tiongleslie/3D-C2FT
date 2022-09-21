@@ -35,5 +35,10 @@ $ python eval.py --dataset_mode "Ours"
 ```
 
 
+### Pretrained Model
+The pretrained model is available at here:
+- 3D-C2FT
+
+
 ### License
 This work is an open-source under MIT license.
