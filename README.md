@@ -28,8 +28,8 @@ We tested the codes with:
   5) [PyMCubes](https://pypi.org/project/PyMCubes/)
   
 
-### Sample code
-- Run the code `eval.py` with the given configuration
+### Usage
+- Run the code `eval.py` with the given configuration in config.py
 ```shell
 $ python eval.py --dataset_mode "Ours"
 ```
