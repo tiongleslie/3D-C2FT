@@ -42,3 +42,15 @@ The pretrained model is available at here:
 
 ### License
 This work is an open-source under MIT license.
+
+
+### Cite this work
+```shell
+@misc{Tiong2022,
+      title={3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction}, 
+      author={Leslie Ching Ow Tiong and Dick Sigmund and Andrew Beng Jin Teoh},
+      year={2022},
+      eprint={2205.14575},
+      archivePrefix={arXiv}
+}
+'''
