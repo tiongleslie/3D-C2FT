@@ -26,6 +26,7 @@ We tested the codes with:
   3) [Matplotlib](https://anaconda.org/conda-forge/matplotlib)
   4) [Open3D](http://www.open3d.org/docs/release/getting_started.html)
   5) [PyMCubes](https://pypi.org/project/PyMCubes/)
+  6) [Natsort](https://pypi.org/project/natsort/)
   
 
 ### Usage
