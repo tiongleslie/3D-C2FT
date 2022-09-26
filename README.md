@@ -38,7 +38,7 @@ $ python eval.py --dataset_mode "Ours"
 
 ### Pretrained Model
 The pretrained model is available at here:
-- 3D-C2FT
+- [3D-C2FT](https://drive.google.com/file/d/1shLa0ikbiV6Ue59k5Pib66PjzOkx6Gfz/view?usp=sharing)
 
 
 ### License
