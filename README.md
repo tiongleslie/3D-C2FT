@@ -32,7 +32,7 @@ We tested the codes with:
 ### Usage
 - Run the code `eval.py` with the given configuration in config.py
 ```shell
-$ python eval.py --dataset_mode "Ours"
+$ python eval.py
 ```
 
 
