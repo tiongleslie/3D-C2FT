@@ -47,7 +47,7 @@ This work is an open-source under MIT license.
 
 ### Cite this work
 ```
-@misc{Tiong2022,
+@misc{C2FT2022,
       title={3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction}, 
       author={Leslie Ching Ow Tiong and Dick Sigmund and Andrew Beng Jin Teoh},
       year={2022},
