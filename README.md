@@ -15,9 +15,9 @@ We use the ShapeNet and Multi-view Real-life datasets, which are available as fo
 
 ### Compatibility
 We tested the codes with:
-  1) PyTorch with and without GPU under Ubuntu 18.04 and Anaconda3 (Python 3.7)
-  2) PyTorch with and without GPU under Windows 10 and Anaconda3 (Python 3.7 and 3.9)
-  3) PyTorch with CPU under MacOS 12.0 (M1) and Anaconda3 (Python 3.7 and 3.9)
+  1) PyTorch with and without GPU under Ubuntu 18.04 and Anaconda3 (Python 3.7 and above)
+  2) PyTorch with and without GPU under Windows 10 and Anaconda3 (Python 3.7 and above)
+  3) PyTorch with CPU under MacOS 12.0 (M1) and Anaconda3 (Python 3.7 and above)
 
 
 ### Requirements
