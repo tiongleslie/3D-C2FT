@@ -1,7 +1,7 @@
 # 3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction
 
 ### Introduction
-This repository contains the source code for the paper [3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction](https://arxiv.org/abs/2205.14575), which is accepted by ACCV 2022.
+This repository contains the source code for the paper [3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction](https://openaccess.thecvf.com/content/ACCV2022/papers/Tiong_3D-C2FT_Coarse-to-fine_Transformer_for_Multi-view_3D_Reconstruction_ACCV_2022_paper.pdf), which is accepted by ACCV 2022.
 <p align="center">
   <img src="info/model.jpg" width="70%" height="70%" />
 </p>
@@ -47,11 +47,12 @@ This work is an open-source under MIT license.
 
 ### Cite this work
 ```
-@misc{C2FT2022,
-      title={3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction}, 
-      author={Leslie Ching Ow Tiong and Dick Sigmund and Andrew Beng Jin Teoh},
-      year={2022},
-      eprint={2205.14575},
-      archivePrefix={arXiv}
+@InProceedings{Tiong_2022_ACCV,
+    author    = {Tiong, Leslie Ching Ow and Sigmund, Dick and Teoh, Andrew Beng Jin},
+    title     = {3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction},
+    booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+    month     = {December},
+    year      = {2022},
+    pages     = {1438-1454}
 }
 ```
