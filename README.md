@@ -47,7 +47,7 @@ This work is an open-source under MIT license.
 
 ### Cite this work
 ```
-@InProceedings{Tiong_2022_ACCV,
+@InProceedings{3DC2FT_2022_ACCV,
     author    = {Tiong, Leslie Ching Ow and Sigmund, Dick and Teoh, Andrew Beng Jin},
     title     = {3D-C2FT: Coarse-to-fine Transformer for Multi-view 3D Reconstruction},
     booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
