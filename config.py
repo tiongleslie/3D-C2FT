@@ -1,11 +1,12 @@
 import torch
+from datetime import datetime
 
 
 #   ShapeNet Dataset
 ShapeNet_taxonomy_path              = "./dataset/ShapeNet/ShapeNet_taxonomy.json"
 ShapeNet_image_path                 = "./dataset/ShapeNet/ShapeNetRendering/%s/%s/rendering/%02d.png"
 ShapeNet_voxel_path                 = "./dataset/ShapeNet/ShapeNetVox32/%s/%s/model.binvox"
-ShapeNet_selection_mode             = "fixed"
+ShapeNet_selection_mode             = "random"
 ShapeNet_eval_set                   = "test"
 
 
@@ -13,10 +14,23 @@ ShapeNet_eval_set                   = "test"
 our_dataset_path                    = "./dataset/Ours"
 
 
+#    Traning Settings
+save_dir                            = "./experiments/3DC2FT_{}".format(datetime.now().strftime("%Y%m%d_%H%M%S"))
+lr                                  = 0.01
+start_epoch                         = 0
+total_epochs                        = 2000
+
+
 #   Multi-view 2D Images Settings
-n_views                             = 12
+n_views                             = 8
 img_size                            = (224, 224)
 crop_size                           = (128, 128)
+train_random_bg_color_range         = [[225, 255], [225, 255], [225, 255]]
+brightness                          = 0.4
+contrast                            = 0.4
+saturation                          = 0.4
+noise_std                           = 0.1
+
 eval_random_bg_color_range          = [[240, 240], [240, 240], [240, 240]]
 mean                                = [0.5, 0.5, 0.5]
 std                                 = [0.5, 0.5, 0.5]
