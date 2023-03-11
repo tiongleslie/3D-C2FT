@@ -9,7 +9,7 @@ This repository contains the source code for the paper [3D-C2FT: Coarse-to-fine 
 
 ### Dataset
 We use the ShapeNet and Multi-view Real-life datasets, which are available as follows:
-- [ShapeNet](https://shapenet.org/)
+- [ShapeNet](https://shapenet.org)
 - [Multi-view Real-life](https://github.com/tiongleslie/3D-C2FT/tree/main/dataset)
 
 
